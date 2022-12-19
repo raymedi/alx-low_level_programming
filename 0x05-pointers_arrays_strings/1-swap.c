@@ -1,29 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * Write a function that swaps the values of two integers.
- *
+ * swap_int -swap the val of 2 int
+ * @a: first int
+ * @b: second int
  * Return: Always 0
  */
-int main(void)
+
+void swap_int(int *a, int *b)
 {
-	int x;
-	int y;
+	int s;
 
-	printf("8");
-
-	scanf("%d", &x);
-	printf("\n2");
-	scanf("%d", &y);
-
-	int temp = x;
-
-	x = y;
-
-	y = temp;
-
-	printf("\nAfter Swapping: x = %d, y = %d", x, y);
-
-	return (0);
+	s = *a;
+	*a = *b;
+	*b = s;
 }
