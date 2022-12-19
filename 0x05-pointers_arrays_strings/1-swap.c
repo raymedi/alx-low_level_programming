@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int x, y;
+	int x;
+	int y;
 
 	printf("8");
 
