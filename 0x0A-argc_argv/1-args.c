@@ -14,3 +14,4 @@ int main(int argc, char *argv[])
 	printf("%\n", argc - 1);
 
 	return (0);
+}
