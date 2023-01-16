@@ -6,9 +6,9 @@
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- * @owner: owner of dog
+ * Return: the length of the string
  */
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner);
 {
 	unsigned int nl, ol, i;
 	dog_t *dog;
